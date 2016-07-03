@@ -10,7 +10,7 @@ class Character(models.Model):
     dm_notes         = models.TextField()
 
     # foreign
-    player_name = models.ForeignKey(
-        'players.name',
-        on_delete=models.CASCADE,
-    )
+    #player = models.ForeignKey(
+    #    'users.name',
+    #    on_delete=models.CASCADE,
+    #)
