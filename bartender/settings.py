@@ -27,6 +27,7 @@ TEMPLATE_DEBUG = True
 ALLOWED_HOSTS = []
 
 LOGIN_URL = '/login/'
+LOGIN_REDIRECT_URL = '/characters/'
 
 
 # Application definition

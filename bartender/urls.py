@@ -5,5 +5,5 @@ from django.contrib.auth import views as auth_views
 urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^characters/', 'characters.views.index', name='index'),
-    url('^', include('django.contrib.auth.urls')),
+    url(r'^', include('django.contrib.auth.urls'))
 )
