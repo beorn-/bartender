@@ -7,7 +7,7 @@ Every week we lose time over our weekly session organization :
 
 This software intends to fix all that in a KISS way.
 
-This is based on django 1.7 for now.
+This is based on django 1.9.8 for now.
 
 This project is more of a django discovery project for me.
 
